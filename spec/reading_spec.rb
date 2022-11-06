@@ -9,6 +9,6 @@ describe 'reads user input' do
 
   it 'can count how many words in a sentence' do
     user_string = TextInput.new('The rain in Spain falls mainly on the plane.')
-    expect(user_string.name).to eq(9)
+    expect(user_string.count_words).to eq(9)
   end
 end

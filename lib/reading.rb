@@ -7,5 +7,7 @@ class TextInput
     @name = name
   end
 
-  
+  def count_words
+    @name.split.length
+  end
 end
